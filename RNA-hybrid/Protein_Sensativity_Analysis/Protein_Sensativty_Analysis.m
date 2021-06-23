@@ -10,12 +10,12 @@ par.P_y = 1e-9;
 par.P_x = 1e-9; 
 
 alpha_z = 1;  
-alpha_x = 1;
-alpha_y = 0.05;
+alpha_y = 1;
+alpha_x = 0.05;
 
 delta_z = 0.005;
-delta_x = 0.05;
-delta_y = 0.005;
+delta_y = 0.05;
+delta_x = 0.005;
 
 alpha_tetR = 0.5;
 delta_tetR = 0.0005;
@@ -34,7 +34,7 @@ nu = 0.5;
 K_1 = 1e-3;
 Beta = 1e4;         
 
- p = [alpha_z alpha_x alpha_y delta_z delta_y delta_x alpha_tetR delta_tetR ...
+ p = [alpha_z alpha_y alpha_x delta_z delta_y delta_x alpha_tetR delta_tetR ...
      alpha_g delta_g omega gamma delta_xz delta_xy ze nu K_1 Beta];
 
  
